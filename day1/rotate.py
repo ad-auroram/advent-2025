@@ -16,7 +16,8 @@ def readPassword():
             else: index -=1
             if index > 99: index = 0
             if index < 0: index = 99
-        if index == 0: count +=1
+            # in the for loop for p2, out for p1
+            if index == 0: count +=1
     print(count)
 
 readPassword()
